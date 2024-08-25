@@ -1,0 +1,93 @@
+
+.data-entry > h2 {
+  width: 300px;
+
+  color: var(--Main-Colors-Primary);
+  font-size: 48px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: 0.24px;
+}
+
+.conversion-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.conversion-btn > button {
+  width: 233px;
+  height: 64px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: 0.2s ease-out;
+
+  color: #454745;
+  font-size: 20px;
+}
+.conversion-btn > button.btn-change {
+  width: 64px;
+  height: 64px;
+  padding: 5px;
+  border: 1px solid #e3e9ed;
+}
+.conversion-btn > button > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #1f2c37;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: 0.1px;
+}
+.conversion-btn > button > span.currency {
+  color: #78828a;
+}
+.conversion-btn > button > span > img {
+  width: 28px;
+}
+.conversion-btn > button:hover {
+  box-shadow: 0px 0px 8px 0px rgba(53, 95, 229, 0.6);
+}
+
+.conversion-view > p {
+  color: #454745;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.09px;
+}
+.conversion-view > p.conversion-value {
+  color: #1f2c37;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+  letter-spacing: 0.16px;
+  margin: 5px 0 24px;
+}
+.conversion-view:last-child > a {
+  color: var(--Main-Colors-Primary);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.09px;
+  text-decoration-line: underline;
+}

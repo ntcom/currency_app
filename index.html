@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency App</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
+  <body>
+    <main id="main-app">
+      <div class="container">
+        <div class="title">
+          <h1>The safe and easy way to <span>exchange</span> your <span>money</span></h1>
+          <p>
+            You always get the best exchange rate with Currencypro, whether you
+            send, spend, or convert money in dozens of currencies. But don’t
+            take our word for it.
+          </p>
+        </div>
+
+        <div class="select-base-currency">
+          <h3>Select your base currency</h3>
+          <ul class="base-currency-list">
+            <li data-currency="USD" class="base-currency-item">
+              <div>
+                <img src="/assets/imgs/flag-us.svg" alt="" />
+                <p>USD</p>
+              </div>
+              <p>United States Dollar</p>
+            </li>
+            <li data-currency="EUR" class="base-currency-item active">
+              <div>
+                <img src="/assets/imgs/flag-Euro.svg" alt="" />
+                <p>EUR</p>
+              </div>
+              <p>Euro</p>
+            </li>
+            <li data-currency="VND" class="base-currency-item">
+              <div>
+                <img src="/assets/imgs/flag-vn.svg" alt="" />
+                <p>VND</p>
+              </div>
+              <p>Viet Nam dong</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="select-target-currency">
+          <h3>Select your base currency</h3>
+          <ul class="target-currency-list">
+            <li data-currency="USD" class="target-currency-item">
+              <div>
+                <img src="/assets/imgs/flag-us.svg" alt="" />
+                <p>USD</p>
+              </div>
+              <p>United States Dollar</p>
+            </li>
+            <li class="target-currency-item disable">
+              <div>
+                <img data-currency="EUR" src="/assets/imgs/flag-Euro.svg" alt="" />
+                <p>EUR</p>
+              </div>
+              <p>Euro</p>
+            </li>
+            <li data-currency="VND" class="target-currency-item">
+              <div>
+                <img src="/assets/imgs/flag-vn.svg" alt="" />
+                <p>VND</p>
+              </div>
+              <p>Viet Nam dong</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="track-exchange-rate">
+            <a href="/results.html">Track exchange rate</a>
+        </div>
+      </div>
+    </main>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
